@@ -1,0 +1,34 @@
+body{
+    background-color: #e1e1e1;
+    font-family: Iransans;
+    font-size: $F-Sprimary;
+    div{
+        border-radius: $F-Squinary;
+    }
+    img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: $F-Squinary;
+    }
+    a{
+        font-weight: bold;
+        border-bottom: 1px solid transparent;
+        color: $F-Ctertiary !important;
+        &:hover{
+            color: $F-Csenary !important;
+            border-bottom: $F-border-hover;
+        }
+    }
+    button{
+        font-weight: bold !important;
+        background-color: $F-Ctertiary !important;
+        &:hover{
+            background-color: $F-Csenary !important;
+        }
+    }
+
+    p{
+        line-height: 32px;
+    }
+}
